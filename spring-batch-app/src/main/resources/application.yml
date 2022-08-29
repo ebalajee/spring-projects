@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: Test1234
+    testWhileIdle: true
+    url: jdbc:postgresql://localhost:5432/app-batch-data
+    username: app-batch-user
+    validationQuery: SELECT 1
